@@ -1,15 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Search from 'youtube-api-search'
 
-import App from './components/app';
-import reducers from './reducers';
+const API_KEY = 'AIzaSyAa6Y5FE61xa27v5SOmx3OBUD8Ux-Ub8bg';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+const opts = {
+  maxResults: 10,
+  key: API_KEY
+};
 
-ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
-  </Provider>
-  , document.querySelector('.container'));
+
+const App = () => {
+	return ( 
+		<div>
+
+			<div> 
+				Search("Ironman",opts, (err,result) =>{
+					// if(err){
+					// 	return console.log(err);
+					// }
+					// else
+					// {
+						console.dir(results)
+					//}
+				})
+			</div>
+
+		 </div>	
+
+
+
+		)
+}
+
+ReactDOM.render(<App />, document.querySelector('.container'))
