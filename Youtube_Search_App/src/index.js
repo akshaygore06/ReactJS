@@ -1,36 +1,28 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Search from 'youtube-api-search'
-
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import SearchBar from './components/search_bar';
+import YTSearch from 'youtube-api-search'; 
 const API_KEY = 'AIzaSyAa6Y5FE61xa27v5SOmx3OBUD8Ux-Ub8bg';
 
-const opts = {
-  maxResults: 10,
-  key: API_KEY
-};
+
+YTSearch({key: API_KEY, term: 'singham'}, function(data){
+	console.log(data);
+});
 
 
-const App = () => {
-	return ( 
+
+class App extends Component{
+	render(){
+		return ( 
 		<div>
+			<div>
+				<SearchBar />
+			</div>	
+			
+		</div>	
 
-			<div> 
-				Search("Ironman",opts, (err,result) =>{
-					// if(err){
-					// 	return console.log(err);
-					// }
-					// else
-					// {
-						console.dir(results)
-					//}
-				})
-			</div>
-
-		 </div>	
-
-
-
-		)
+		);
+	}
 }
 
 ReactDOM.render(<App />, document.querySelector('.container'))
