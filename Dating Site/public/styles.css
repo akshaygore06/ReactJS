@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+}
+
+button{
+    background: rgb(212, 203, 207);
+}
+
+/* Header */
+.header {
+    margin: 0px;
+    color: white;
+    background: rgb(208, 47, 122);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 80px;
+    width: 100%;
+}
+
+.header h1 {
+    margin-top: 0px;
+}
+
+/* SearchControls */
+
+.headings,
+.radioTitle{
+    color: white;
+    font-weight: 250;
+    text-align: center;
+}
+
+.searchContainer {
+    padding: 15px 20px;
+    background: #384344;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 520px;
+}
+
+/* Gallery */
+
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hide { 
+    display: none !important;
+}
+
+.photoContainer {
+    width: 150px;
+    height: 200px;
+    background: darkgrey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;    
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.matchTextClass {
+    background: rgb(242, 242, 242);
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.searchTitle{
+    color: white;
+    font-weight: 400;
+    font-size: 18px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+.thumbnail{
+    width: 70%;
+}
+
+.photoGallery{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(242, 242, 242);
+    height:500px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.initialContainer {
+    display: flex;
+}
+
+.inputRangeContainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 150px;
+}
+.photoGalleryContainer{
+    width: 100%; 
+}
+
+.resetButtonContainer{
+    padding-top: 10px;
+}
+
+.radioContainer {
+    margin-top: 20px;
+    background: grey;
+    width: 100px;
+}
+
+.radio{
+    padding-left: 10px;
+}
+
+.custom-modal{
+    height: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgb(201, 201, 201) !important;
+}
+
+.modalHeader {
+    font-size: 25px;
+    align-self: center;
+    font-weight: 400;
+}
+
+.modalInnerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.modalImage{
+    width: 33%;
+    border: 2px solid darkgrey;
+}
+.modalDetailsContainer{
+    flex-direction: column;
+}
+.styles_closeButton__20ID4{
+    color: white;
+}
+
+ .input-range__track .input-range__track--active{
+    background: rgb(208, 47, 122);
+}
+
+.input-range__slider{
+    background:  rgb(208, 47, 122) !important;
+} 
+
+.noData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a header 1`] = `
+<div
+  className="header"
+>
+  Lonely Hearts Dating Service
+</div>
+`;
+
+exports[`render a header1 1`] = `
+<div
+  className="header"
+>
+  Lonely Hearts Dating Service
+</div>
+`;
