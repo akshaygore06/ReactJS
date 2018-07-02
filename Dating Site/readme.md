@@ -55,4 +55,4 @@ Room for Improvement
 * Detailed snapshot testing
 
 
-![Scheme](https://bitbucket.org/akshaygore0691/new-ui-challenge/src/ff300be4cff86d99421f4f652f43c3a34a82793d/sample.gif)
+![Scheme](https://github.com/akshaygore06/ReactJS/blob/master/Dating%20Site/sample.gif)
