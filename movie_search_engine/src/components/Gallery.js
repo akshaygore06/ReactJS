@@ -34,7 +34,7 @@ export default class Gallery extends Component {
         className="Result_card"
         paginationAt="bottom"
         pages={5}
-        size={12}
+        size={18}
         Loader="Loading..."
         noResults="No results were found..."
         sortOptions={[
