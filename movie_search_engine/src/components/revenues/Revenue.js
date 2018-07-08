@@ -7,6 +7,7 @@ export default class Revenue extends Component {
   render() {
     return (
         <div>
+          <hr className="blue" />
           <FilterTitle title="Revenue" />
           <SingleRange
               componentId="revenue-list"
