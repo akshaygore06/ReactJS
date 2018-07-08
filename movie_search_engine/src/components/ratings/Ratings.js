@@ -7,6 +7,7 @@ export default class Ratings extends Component {
   render() {
     return (
         <div>
+            <hr className="blue" />
             <FilterTitle title="Ratings" />
             <RangeSlider
                 componentId="RangeSlider"
