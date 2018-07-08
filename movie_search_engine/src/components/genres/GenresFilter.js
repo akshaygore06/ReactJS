@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MultiList } from '@appbaseio/reactivesearch'
 
-export default class SearchBar extends Component {
+export default class GenresFilter extends Component {
   render() {
     return (
         <MultiList

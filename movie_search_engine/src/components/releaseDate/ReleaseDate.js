@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { DateRange } from '@appbaseio/reactivesearch'
-import "./../App.css";
+import "./../../App.css";
 
 export default class ReleaseDate extends Component {
   render() {

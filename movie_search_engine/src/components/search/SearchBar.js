@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { DataSearch } from '@appbaseio/reactivesearch'
-import "./../App.css";
+import "./../../App.css";
 
 export default class SearchBar extends Component {
   render() {
