@@ -6,7 +6,8 @@ import Genres from './genres/Genres';
 
 export default class LogoContainer extends Component {
   render() {
-      const { leftBarStyle } = this.props;
+    const { leftBarStyle } = this.props;
+    
     return (
         <div className={leftBarStyle}>
             <Genres />

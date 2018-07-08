@@ -16,7 +16,7 @@ class Main extends React.Component {
 
     this.state = {
       isClicked: false,
-      message: "🔬Show Filters"
+      message: "🔬 Show Filters"
     };
   }
 
